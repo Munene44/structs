@@ -18,15 +18,15 @@ func main() {
 
     fmt.Println(person{"Bob", 20})
 
-    fmt.Println(person{name: "Alice", age: 30})
+    fmt.Println(person{name: "Kelvin", age: 30})
 
-    fmt.Println(person{name: "Fred"})
+    fmt.Println(person{name: "Kendi"})
 
     fmt.Println(&person{name: "Ann", age: 40})
 
-    fmt.Println(NewPerson("Jon"))
+    fmt.Println(NewPerson("Alex"))
 
-    s := person{name: "Sean", age: 50}
+    s := person{name: "Munene", age: 50}
     fmt.Println(s.name)
 
     sp := &s
